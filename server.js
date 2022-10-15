@@ -3,7 +3,12 @@ const app = express();
 
 const posts = [
     {
-        
+        cityName:'Stockholm',
+        title: 'post 1'
+    },
+    {
+        cityName:'New York',
+        title: 'post 2'
     }
 ]
 
