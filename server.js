@@ -13,6 +13,7 @@ const posts = [
 ]
 
 app.get('/posts',(req,res)=> {
+    res.json(posts)
 
 })
 
